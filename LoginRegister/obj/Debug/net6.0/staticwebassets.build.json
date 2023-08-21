@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "7UG1EHRAV/4NYxVIJEAS0y8p6geDGxZ1wroHCv11+T0=",
+  "Source": "LoginRegister",
+  "BasePath": "_content/LoginRegister",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LoginRegister\\wwwroot",
+      "Source": "LoginRegister",
+      "ContentRoot": "C:\\Users\\amak\\Source\\Repos\\BookManagementApp\\LoginRegister\\wwwroot\\",
+      "BasePath": "_content/LoginRegister",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\amak\\Source\\Repos\\BookManagementApp\\LoginRegister\\wwwroot\\index.html",
+      "SourceId": "LoginRegister",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\amak\\Source\\Repos\\BookManagementApp\\LoginRegister\\wwwroot\\",
+      "BasePath": "_content/LoginRegister",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

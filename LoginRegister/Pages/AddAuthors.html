@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add Authors</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width =device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Authors.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a style="text-decoration:none" href="./index.html"><h3>Book Management App</h3></a></li>
+        </div>
+        <ul>
+            <li><a href="./Authors.html">Authors</a></li>
+            <li><a href="./AddAuthors.html">Add Author</a></li>
+            <li><a href="./Books.html">Books</a></li>
+            <li><a href="./AddBooks.html">Add Book</a></li>
+            <li class="custom-dropdown">
+                <a href="#" class="custom-dropbtn">Members</a>
+                <div class="custom-dropdown-content">
+                    <a href="Authors.html">Login</a>
+                    <a href="Authors.html">Register</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <h3>Add Author</h3>
+        <form action="">
+            <div class="form-group">
+                <input type="text" class="form-control" id="authorname" placeholder="Enter Author Name" name="authorName">
+            </div>
+            <div class="form-group">
+<textarea type="text" class="form-control" id="Biography" placeholder="Enter Author's' Biography" name="biography"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="file" class="form-control" id="authorPhoto" accept="image/png, image /jpeg" placeholder="Upload Author Photo" name="authorPhoto" />
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="authoremail" placeholder="Enter Author email" name="authorEmail">
+            </div>
+            <button type="submit" class="btn btn-default btn-success">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
